@@ -6,6 +6,12 @@ const types = {
         ,
         message: 'Preencha com um email válido'
     },
+    number: {
+        regex: /^\d+$/
+        ,
+        message: 'Utilize números apenas.'
+    },
+    
 };
 
 const useForm = (type) => {
